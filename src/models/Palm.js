@@ -1,6 +1,6 @@
 export const generateText = async (query = 'Who are you') => {
   try {
-    const PALM_KEY = 'AIzaSyDHR0Bur7Kwj2O3nowF_nNf8xdY-w6O6-k'; // Replace with your actual API key
+    const PALM_KEY = 'api-key'; // Replace with your actual API key
     const apiUrl =
       'https://generativelanguage.googleapis.com/v1beta3/models/text-bison-001:generateText';
 
